@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "repairs.issue_registry",
+  "data": {
+    "issues": [
+      {
+        "created": "2024-03-23T23:47:55.307739+00:00",
+        "dismissed_version": "2024.3.3",
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "deprecated_yaml_configuration"
+      }
+    ]
+  }
+}

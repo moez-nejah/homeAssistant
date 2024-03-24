@@ -1,0 +1,168 @@
+- id: '1710331296856'
+  alias: light basement stairs
+  description: Turn on the light when detecting someone and turn it off after 30 seconds
+    of no motion
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.sensor_motion
+    from: 'off'
+    to: 'on'
+  condition:
+  - condition: template
+    value_template: '{% set next_setting = as_timestamp(states.sun.sun.attributes.next_setting)
+      %} {% set next_rising = as_timestamp(states.sun.sun.attributes.next_rising)
+      %} {% set now_ts = as_timestamp(now()) %} {{ (next_setting - 3600) <= now_ts
+      <= (next_rising + 3600) }}
+
+      '
+  action:
+  - service: light.turn_on
+    target:
+      entity_id: light.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_light
+    data:
+      transition: 2
+  - wait_for_trigger:
+    - platform: state
+      entity_id:
+      - binary_sensor.sensor_motion
+      to: 'off'
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 0
+  - service: light.turn_off
+    target:
+      entity_id: light.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_light
+    data: {}
+  mode: single
+- id: '1710804721792'
+  alias: Light home entrance
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - binary_sensor.contact_sensor_door
+    from: 'off'
+    to: 'on'
+  - platform: state
+    entity_id:
+    - binary_sensor.tze200_3towulqd_ts0601_motion
+    from: 'off'
+    to: 'on'
+  - platform: state
+    entity_id:
+    - light.ewelink_ck_bl702_al_01_7009_z102lg03_1_light
+    from:
+    to: 'on'
+  condition:
+  - condition: template
+    value_template: '{% set next_setting = as_timestamp(states.sun.sun.attributes.next_setting)
+      %} {% set next_rising = as_timestamp(states.sun.sun.attributes.next_rising)
+      %} {% set now_ts = as_timestamp(now()) %} {{ (next_setting - 3600) <= now_ts
+      <= (next_rising + 3600) }}
+
+      '
+  action:
+  - type: turn_on
+    device_id: 5d45537328794a8ee27c4b1e8e22fe2c
+    entity_id: dfcd97bbf674ec8880e52ec6bf2aa36c
+    domain: light
+  - wait_for_trigger:
+    - platform: state
+      entity_id:
+      - binary_sensor.tze200_3towulqd_ts0601_motion
+      to: 'off'
+  - service: light.turn_off
+    metadata: {}
+    data: {}
+    target:
+      device_id: 5d45537328794a8ee27c4b1e8e22fe2c
+  mode: single
+- id: '1710844216231'
+  alias: Temperature off in Office
+  description: Turn off switch when temperature rises above 19°C or when not in HomeOffice
+    mode
+  trigger:
+  - platform: time_pattern
+    minutes: /5
+  condition:
+  - condition: or
+    conditions:
+    - condition: and
+      conditions:
+      - condition: device
+        type: is_on
+        device_id: e9b31570a72455a659e0319b08598073
+        entity_id: switch.ikea_of_sweden_tradfri_control_outlet_switch
+        domain: switch
+      - condition: state
+        entity_id: input_select.home_mode
+        state: HomeOffice
+      - condition: template
+        value_template: '{{ states(''sensor.t_h_sensor_temperature'') | float > 21
+          }}'
+    - condition: and
+      conditions:
+      - condition: template
+        value_template: '{{ states(''input_select.home_mode'') != ''HomeOffice'' }}'
+      - condition: device
+        type: is_on
+        device_id: e9b31570a72455a659e0319b08598073
+        entity_id: d6c54c5fb72b41a0c22f694b68908f0a
+        domain: switch
+  action:
+  - service: switch.turn_off
+    target:
+      entity_id: switch.ikea_of_sweden_tradfri_control_outlet_switch
+    data: {}
+  mode: single
+- id: '1711139975912'
+  alias: Temperature turn on office
+  description: Turn on switch when temperature rises below 19°C
+  trigger:
+  - platform: time_pattern
+    minutes: /5
+  condition:
+  - condition: device
+    type: is_off
+    device_id: e9b31570a72455a659e0319b08598073
+    entity_id: d6c54c5fb72b41a0c22f694b68908f0a
+    domain: switch
+  - condition: state
+    entity_id: input_select.home_mode
+    state: HomeOffice
+  - condition: template
+    value_template: '{{ states(''sensor.t_h_sensor_temperature'') | float < 19 }}'
+  action:
+  - type: turn_on
+    device_id: e9b31570a72455a659e0319b08598073
+    entity_id: d6c54c5fb72b41a0c22f694b68908f0a
+    domain: switch
+  mode: single
+- id: '1711219274022'
+  alias: Periodic Sensor Check and Lamp Control
+  description: ''
+  trigger:
+  - platform: time_pattern
+    seconds: /40
+  condition: []
+  action:
+  - service: script.turn_on
+    target:
+      entity_id: script.check_sensor_and_turn_off_lamp
+    data: {}
+  - service: script.turn_on
+    data: {}
+    target:
+      entity_id: script.check_sensor_and_turn_off_lamp_stairs
+  mode: single
+- id: '1711282945961'
+  alias: automate_backup
+  description: ''
+  trigger:
+  - platform: time
+    at: '13:26:00'
+  action:
+  - service: shell_command.backup_homeassistant
+    data: {}
+  mode: single

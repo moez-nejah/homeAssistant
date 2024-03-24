@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "cloud",
+  "data": {
+    "alexa_default_expose": [
+      "climate",
+      "cover",
+      "fan",
+      "humidifier",
+      "light",
+      "lock",
+      "scene",
+      "script",
+      "sensor",
+      "switch",
+      "vacuum",
+      "water_heater"
+    ],
+    "alexa_entity_configs": {},
+    "alexa_settings_version": 3,
+    "cloud_user": "7c3125595ec649689186870538237448",
+    "cloudhooks": {
+      "7e13315a7bdc37ab99282fd17086f945d4db75aa3837e33d1c5590be7c4d2e96": {
+        "webhook_id": "7e13315a7bdc37ab99282fd17086f945d4db75aa3837e33d1c5590be7c4d2e96",
+        "cloudhook_id": "41b7cda1deaf4b8f8483b34855bf5cf8",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABl_YO0boMkCBDJqqAWu6sSeYtfaWPworp6nJ0nh7W2qpcxKXNroVwDTrT_lq9g6Yd2eiVsBXN2_j3UmpFNq4RFstEuruREUEOH1Bo7dciciBnS_Z1blSFZDjZqxdRoFXmnODrKzSzL9RZhKsv71q_UNiAHYfSiqjQpTStHKtNEjEM6auU=",
+        "managed": true
+      },
+      "34a40d593879877641856c0161bd66ff380182f314f93dca8556c9fc7ff8b528": {
+        "webhook_id": "34a40d593879877641856c0161bd66ff380182f314f93dca8556c9fc7ff8b528",
+        "cloudhook_id": "3f065d030de14a21a4e6e3ea727c800a",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABl_ZvqKWPA0wdpQ2XuY3m7wD9zgVmqv0dxxZ2O03EZ6_IhXSI22SsX9yNNJjISxQ_aA5pC1T8ImU7vWhIS8JJfy6rIdl-wktrnFs4a4JiMDYWH_t_-RCE0UA94hMpYixJsUwJupID7qzLD46UfqJiS2OCPI7e25OtbnMQj9L3TmK3V7fc=",
+        "managed": true
+      }
+    },
+    "alexa_enabled": true,
+    "google_enabled": true,
+    "remote_enabled": false,
+    "google_connected": false,
+    "google_default_expose": [
+      "climate",
+      "cover",
+      "fan",
+      "humidifier",
+      "light",
+      "lock",
+      "scene",
+      "script",
+      "sensor",
+      "switch",
+      "vacuum",
+      "water_heater"
+    ],
+    "google_entity_configs": {},
+    "google_settings_version": 3,
+    "google_local_webhook_id": "961f7c3e5c52b5ce90d27379242e261f417f4fddc9b5cffcbd88cf462ae2defe",
+    "instance_id": "5c098144a49a45a28234d7c8bf699f11",
+    "google_secure_devices_pin": null,
+    "remote_domain": "lkwojuet8ekbdkk8ij4o7ba5bwebqrky.ui.nabu.casa",
+    "remote_allow_remote_enable": true,
+    "username": "fb346856-0f3d-46ae-95d9-3c2ce3532f82"
+  }
+}

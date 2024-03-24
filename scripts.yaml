@@ -1,0 +1,26 @@
+check_sensor_and_turn_off_lamp:
+  alias: check_sensor_and_turn_off_lamp_entrance
+  sequence:
+  - condition: state
+    entity_id: binary_sensor.tze200_3towulqd_ts0601_motion
+    state: 'off'
+  - service: light.turn_off
+    target:
+      device_id: 5d45537328794a8ee27c4b1e8e22fe2c
+    data: {}
+  mode: single
+check_sensor_and_turn_off_lamp_stairs:
+  alias: check_sensor_and_turn_off_lamp_stairs
+  sequence:
+  - condition: state
+    entity_id: binary_sensor.sensor_motion
+    state: 'off'
+  - service: light.turn_off
+    data: {}
+    target:
+      device_id: b28822898b765cdbee8d223f5b2f3e47
+  mode: single
+git_backup:
+  alias: 'git backup '
+  sequence: []
+  mode: single

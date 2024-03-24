@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "homeassistant.exposed_entities",
+  "data": {
+    "assistants": {},
+    "exposed_entities": {
+      "sun.sun": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "zone.home": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.contact_sensor_door": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.contact_sensor_battery": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.t_h_sensor_temperature": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.t_h_sensor_humidity": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.t_h_sensor_2_temperature": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.t_h_sensor_2_humidity": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          },
+          "cloud.google_assistant": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.turn_off_entrance_lamp": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.turn_off_stairs_lamp": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.turn_off_lamp_in_entrance": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "update.advanced_ssh_web_terminal_update": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "binary_sensor.advanced_ssh_web_terminal_running": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.advanced_ssh_web_terminal_version": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.advanced_ssh_web_terminal_newest_version": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.advanced_ssh_web_terminal_cpu_percent": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.advanced_ssh_web_terminal_memory_percent": {
+        "assistants": {
+          "cloud.google_assistant": {
+            "should_expose": false
+          },
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      }
+    }
+  }
+}

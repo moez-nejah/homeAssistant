@@ -1,0 +1,31 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+input_select:
+  home_mode:
+    name: Home Mode
+    options:
+      - Home
+      - Away
+      - Night
+      - HomeOffice
+      - Vacation
+    initial: Home
+
+panel_custom:
+  - name: Supervisor
+    url_path: hassio/system
+    sidebar_title: Supervisor
+    sidebar_icon: mdi:home-assistant
+    module_url: /local/panel-redirect.js
+
+shell_command:
+  backup_homeassistant: sh /config/backup.sh
