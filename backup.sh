@@ -13,4 +13,4 @@ git add .
 git commit -m "Automated backup $(date +"%Y-%m-%d %H:%M:%S")"
 
 # Push changes to your GitHub repository
-git push https://github.com/moez-nejah/homeAssistant  master  # Replace 'origin' with the name of your remote if needed
+git push https://github.com/moez-nejah/homeAssistant.git master
