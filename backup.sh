@@ -1,11 +1,14 @@
 #!/bin/bash
 
 # GitHub credentials
-GITHUB_USERNAME="moez-nejah"
-GITHUB_TOKEN="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"
+GITHUB_USERNAME="your_username"
+GITHUB_TOKEN="your_personal_access_token"
 
 # Navigate to the Home Assistant configuration directory
 cd /config
+
+# Pull changes from the remote repository
+git pull origin master
 
 # Run Home Assistant's backup service
 ha backup create --name "Backup $(date +"%Y-%m-%d")"
