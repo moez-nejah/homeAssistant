@@ -1,2 +1,4 @@
 2024-03-24 13:23:50.133 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
 2024-03-24 13:24:01.249 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2024-03-24 13:26:05.872 ERROR (MainThread) [homeassistant.components.shell_command] Error running command: `sh /config/backup.sh`, return code: 128
+NoneType: None
