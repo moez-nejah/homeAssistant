@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # GitHub credentials
-GITHUB_USERNAME="your_username"
-GITHUB_TOKEN="your_personal_access_token"
+GITHUB_USERNAME="moez-nejah"
+GITHUB_TOKEN="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"
 
 # Navigate to the Home Assistant configuration directory
 cd /config
