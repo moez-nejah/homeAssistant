@@ -4,525 +4,525 @@
   "key": "core.restore_state",
   "data": [
     {
-      "state": {"entity_id":"person.moez","state":"home","attributes":{"editable":true,"id":"moez","latitude":59.6402587890625,"longitude":10.831083126861937,"gps_accuracy":19.66862078299143,"source":"device_tracker.home_assistance_phone","user_id":"e547ccc2c79c40dd8bb5695515efd367","device_trackers":["device_tracker.moezs_iphone","device_tracker.home_assistance_phone"],"friendly_name":"Moez"},"last_changed":"2024-03-24T12:23:50.799222+00:00","last_updated":"2024-03-24T12:24:16.793817+00:00","context":{"id":"01HSR6PC4SZ4AM4D807V6565PG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"person.moez","state":"home","attributes":{"editable":true,"id":"moez","latitude":59.64007568359375,"longitude":10.830910457308246,"gps_accuracy":7.827049612866701,"source":"device_tracker.home_assistance_phone","user_id":"e547ccc2c79c40dd8bb5695515efd367","device_trackers":["device_tracker.moezs_iphone","device_tracker.home_assistance_phone"],"friendly_name":"Moez"},"last_changed":"2024-03-24T23:05:13.088074+00:00","last_updated":"2024-03-24T23:06:32.751305+00:00","context":{"id":"01HSSBECXFZD16XD7HTY89YSSR","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.03.0","in_progress":false,"latest_version":"2024.03.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.03.0","skipped_version":null,"title":"Home Assistant Supervisor","entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2024-03-24T12:23:52.803564+00:00","last_updated":"2024-03-24T12:23:52.803564+00:00","context":{"id":"01HSR6NMQ3CXTTSY4MAZG2JYC7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.03.0","in_progress":false,"latest_version":"2024.03.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.03.0","skipped_version":null,"title":"Home Assistant Supervisor","entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2024-03-24T14:31:09.669065+00:00","last_updated":"2024-03-24T14:31:09.669065+00:00","context":{"id":"01HSRDYPK5EYBFEFMK3B6R6Z5D","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.3.3","in_progress":false,"latest_version":"2024.3.3","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2024-03-24T12:23:52.804413+00:00","last_updated":"2024-03-24T12:23:52.804413+00:00","context":{"id":"01HSR6NMQ4EYBFEFMK3B6R6Z5D","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.3.3","in_progress":false,"latest_version":"2024.3.3","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2024-03-24T14:31:09.670468+00:00","last_updated":"2024-03-24T14:31:09.670468+00:00","context":{"id":"01HSRDYPK6RJGB43VE7X2F0NNF","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.zerotier_one_update","state":"off","attributes":{"auto_update":false,"installed_version":"0.18.0","in_progress":false,"latest_version":"0.18.0","release_summary":"## What’s changed\n\n## 🚨 Breaking changes\n\n- Drop support for armhf & i386 @frenck ([#212](https://github.com/hassio-addons/addon-zerotier/pull/212))\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#220](https://github.com/hassio-","release_url":null,"skipped_version":null,"title":"ZeroTier One","entity_picture":"/api/hassio/addons/a0d7b954_zerotier/icon","friendly_name":"ZeroTier One Update","supported_features":25},"last_changed":"2024-03-24T12:23:52.804990+00:00","last_updated":"2024-03-24T12:23:52.804990+00:00","context":{"id":"01HSR6NMQ4RJGB43VE7X2F0NNF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.zerotier_one_update","state":"off","attributes":{"auto_update":false,"installed_version":"0.18.0","in_progress":false,"latest_version":"0.18.0","release_summary":"## What’s changed\n\n## 🚨 Breaking changes\n\n- Drop support for armhf & i386 @frenck ([#212](https://github.com/hassio-addons/addon-zerotier/pull/212))\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#220](https://github.com/hassio-","release_url":null,"skipped_version":null,"title":"ZeroTier One","entity_picture":"/api/hassio/addons/a0d7b954_zerotier/icon","friendly_name":"ZeroTier One Update","supported_features":25},"last_changed":"2024-03-24T14:31:09.671313+00:00","last_updated":"2024-03-24T14:31:09.671313+00:00","context":{"id":"01HSRDYPK7NC5Z7R2M7P9YWJEE","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.studio_code_server_update","state":"off","attributes":{"auto_update":false,"installed_version":"5.15.0","in_progress":false,"latest_version":"5.15.0","release_summary":"## What’s changed\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#763](https://github.com/hassio-addons/addon-vscode/pull/763))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update esphome to v2023.11.0 @renovate ([#739](https://github.com/ha","release_url":null,"skipped_version":null,"title":"Studio Code Server","entity_picture":"/api/hassio/addons/a0d7b954_vscode/icon","friendly_name":"Studio Code Server Update","supported_features":25},"last_changed":"2024-03-24T12:23:52.805552+00:00","last_updated":"2024-03-24T12:23:52.805552+00:00","context":{"id":"01HSR6NMQ5NC5Z7R2M7P9YWJEE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.studio_code_server_update","state":"off","attributes":{"auto_update":false,"installed_version":"5.15.0","in_progress":false,"latest_version":"5.15.0","release_summary":"## What’s changed\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#763](https://github.com/hassio-addons/addon-vscode/pull/763))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update esphome to v2023.11.0 @renovate ([#739](https://github.com/ha","release_url":null,"skipped_version":null,"title":"Studio Code Server","entity_picture":"/api/hassio/addons/a0d7b954_vscode/icon","friendly_name":"Studio Code Server Update","supported_features":25},"last_changed":"2024-03-24T14:31:09.672045+00:00","last_updated":"2024-03-24T14:31:09.672045+00:00","context":{"id":"01HSRDYPK8B6TK0R09M147ZBQS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":true,"installed_version":"17.2.0","in_progress":false,"latest_version":"17.2.0","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update home-assistant/cli to v4.31.0 @renovate ([#702](https://github.com/hassio-addons/addon-ssh/pull/702))\n- ⬆️ Update Docker to v25.0.3-r1 @renovate ([#703](https://github.com/hassio-addons/addon-ssh/pu","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2024-03-24T12:23:52.806087+00:00","last_updated":"2024-03-24T12:23:52.806087+00:00","context":{"id":"01HSR6NMQ6B6TK0R09M147ZBQS","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":true,"installed_version":"17.2.0","in_progress":false,"latest_version":"17.2.0","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update home-assistant/cli to v4.31.0 @renovate ([#702](https://github.com/hassio-addons/addon-ssh/pull/702))\n- ⬆️ Update Docker to v25.0.3-r1 @renovate ([#703](https://github.com/hassio-addons/addon-ssh/pu","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2024-03-24T14:31:09.672831+00:00","last_updated":"2024-03-24T14:31:09.672831+00:00","context":{"id":"01HSRDYPK8CNP2ZN72BHG8YR33","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"installed_version":"12.1","in_progress":false,"latest_version":"12.1","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/12.1","skipped_version":null,"title":"Home Assistant Operating System","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2024-03-24T12:23:52.806808+00:00","last_updated":"2024-03-24T12:23:52.806808+00:00","context":{"id":"01HSR6NMQ6CNP2ZN72BHG8YR33","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"installed_version":"12.1","in_progress":false,"latest_version":"12.1","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/12.1","skipped_version":null,"title":"Home Assistant Operating System","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2024-03-24T14:31:09.673807+00:00","last_updated":"2024-03-24T14:31:09.673807+00:00","context":{"id":"01HSRDYPK9Q4WKRF2PNYJ0PHA7","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"stt.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2024-03-24T12:23:54.973084+00:00","last_updated":"2024-03-24T12:23:54.973084+00:00","context":{"id":"01HSR6NPTX9PTCR8TSCGBK4PP6","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"stt.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2024-03-24T14:31:11.260725+00:00","last_updated":"2024-03-24T14:31:11.260725+00:00","context":{"id":"01HSRDYR4WFV54EX05JEE5YE79","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"tts.home_assistant_cloud","state":"2024-03-18T23:40:34.248111+00:00","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2024-03-24T12:23:54.965659+00:00","last_updated":"2024-03-24T12:23:54.965659+00:00","context":{"id":"01HSR6NPTNDY694JTWCMPQXM8N","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"tts.home_assistant_cloud","state":"2024-03-18T23:40:34.248111+00:00","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2024-03-24T14:31:11.258272+00:00","last_updated":"2024-03-24T14:31:11.258272+00:00","context":{"id":"01HSRDYR4T9PTCR8TSCGBK4PP6","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"input_select.home_mode","state":"Home","attributes":{"options":["Home","Away","Night","HomeOffice","Vacation"],"editable":false,"friendly_name":"Home Mode"},"last_changed":"2024-03-24T12:23:56.295197+00:00","last_updated":"2024-03-24T12:23:56.295197+00:00","context":{"id":"01HSR6NR47EY56ASGXA8PCE2S1","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"tts.google_en_com","state":"unknown","attributes":{"friendly_name":"Google en com"},"last_changed":"2024-03-24T14:31:13.545515+00:00","last_updated":"2024-03-24T14:31:13.545515+00:00","context":{"id":"01HSRDYTC9XKQ1Z01XW493XMZY","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"tts.google_en_com","state":"unknown","attributes":{"friendly_name":"Google en com"},"last_changed":"2024-03-24T12:23:56.891155+00:00","last_updated":"2024-03-24T12:23:56.891155+00:00","context":{"id":"01HSR6NRPVN1TZH3KEV6K0KB3R","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_select.home_mode","state":"Home","attributes":{"options":["Home","Away","Night","HomeOffice","Vacation"],"editable":false,"friendly_name":"Home Mode"},"last_changed":"2024-03-24T14:31:13.547102+00:00","last_updated":"2024-03-24T14:31:13.547102+00:00","context":{"id":"01HSRDYTCB52WVZM1YXDG68H81","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"script.check_sensor_and_turn_off_lamp","state":"off","attributes":{"last_triggered":"2024-03-24T13:24:00.129122+00:00","mode":"single","current":0,"friendly_name":"check_sensor_and_turn_off_lamp_entrance"},"last_changed":"2024-03-24T13:24:00.203552+00:00","last_updated":"2024-03-24T13:24:00.203552+00:00","context":{"id":"01HSRA3QFV932RHXFYHCAR7FPH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.check_sensor_and_turn_off_lamp","state":"off","attributes":{"last_triggered":"2024-03-25T00:01:00.238346+00:00","mode":"single","current":0,"friendly_name":"check_sensor_and_turn_off_lamp_entrance"},"last_changed":"2024-03-25T00:01:00.297071+00:00","last_updated":"2024-03-25T00:01:00.297071+00:00","context":{"id":"01HSSEJ3T7Z1TXR5JKSDHVG7XD","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"script.check_sensor_and_turn_off_lamp_stairs","state":"off","attributes":{"last_triggered":"2024-03-24T13:24:00.140783+00:00","mode":"single","current":0,"friendly_name":"check_sensor_and_turn_off_lamp_stairs"},"last_changed":"2024-03-24T13:24:00.186405+00:00","last_updated":"2024-03-24T13:24:00.186405+00:00","context":{"id":"01HSRA3QFV932RHXFYHCAR7FPH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.check_sensor_and_turn_off_lamp_stairs","state":"off","attributes":{"last_triggered":"2024-03-25T00:01:00.248697+00:00","mode":"single","current":0,"friendly_name":"check_sensor_and_turn_off_lamp_stairs"},"last_changed":"2024-03-25T00:01:00.301636+00:00","last_updated":"2024-03-25T00:01:00.301636+00:00","context":{"id":"01HSSEJ3T7Z1TXR5JKSDHVG7XD","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"script.git_backup","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"git backup "},"last_changed":"2024-03-24T12:23:57.415308+00:00","last_updated":"2024-03-24T12:23:57.415308+00:00","context":{"id":"01HSR6NS775JFB7QZEZ8WYMRRP","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.git_backup","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"git backup "},"last_changed":"2024-03-24T14:31:14.000494+00:00","last_updated":"2024-03-24T14:31:14.000494+00:00","context":{"id":"01HSRDYTTGFTSZR1M5XAK7XSR8","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"automation.light_basement_stairs","state":"on","attributes":{"id":"1710331296856","last_triggered":"2024-03-23T17:36:25.468215+00:00","mode":"single","current":0,"friendly_name":"light basement stairs"},"last_changed":"2024-03-24T12:23:57.965450+00:00","last_updated":"2024-03-24T12:23:57.965450+00:00","context":{"id":"01HSR6NSRD16BJH48GWZMS3VMJ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.light_basement_stairs","state":"on","attributes":{"id":"1710331296856","last_triggered":"2024-03-23T17:36:25.468215+00:00","mode":"single","current":0,"friendly_name":"light basement stairs"},"last_changed":"2024-03-24T14:31:14.569677+00:00","last_updated":"2024-03-24T14:31:14.569677+00:00","context":{"id":"01HSRDYVC9K9GFRT6DHMPKTKGH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"automation.turn_on_lamp_when_home_door_is_open","state":"on","attributes":{"id":"1710804721792","last_triggered":"2024-03-23T17:36:31.176751+00:00","mode":"single","current":0,"friendly_name":"Light home entrance"},"last_changed":"2024-03-24T12:23:57.966220+00:00","last_updated":"2024-03-24T12:23:57.966220+00:00","context":{"id":"01HSR6NSRE47QZHR4B9ZNC23ZX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.turn_on_lamp_when_home_door_is_open","state":"on","attributes":{"id":"1710804721792","last_triggered":"2024-03-23T17:36:31.176751+00:00","mode":"single","current":0,"friendly_name":"Light home entrance"},"last_changed":"2024-03-24T14:31:14.570431+00:00","last_updated":"2024-03-24T14:31:14.570431+00:00","context":{"id":"01HSRDYVCARSBT79PSPYN88A2C","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"automation.temperature_set_in_office","state":"on","attributes":{"id":"1710844216231","last_triggered":"2024-03-23T16:57:55.215685+00:00","mode":"single","current":0,"friendly_name":"Temperature off in Office"},"last_changed":"2024-03-24T12:23:57.966811+00:00","last_updated":"2024-03-24T12:23:57.966811+00:00","context":{"id":"01HSR6NSRE1AFV802T2VHA01CN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.temperature_set_in_office","state":"on","attributes":{"id":"1710844216231","last_triggered":"2024-03-23T16:57:55.215685+00:00","mode":"single","current":0,"friendly_name":"Temperature off in Office"},"last_changed":"2024-03-24T14:31:14.571203+00:00","last_updated":"2024-03-24T14:31:14.571203+00:00","context":{"id":"01HSRDYVCB501GT6AT54NW3M2H","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"automation.temperature_turn_on_office","state":"on","attributes":{"id":"1711139975912","last_triggered":"2024-03-23T11:55:00.310300+00:00","mode":"single","current":0,"friendly_name":"Temperature turn on office"},"last_changed":"2024-03-24T12:23:57.967294+00:00","last_updated":"2024-03-24T12:23:57.967294+00:00","context":{"id":"01HSR6NSRFV0TMCB9WV066RRKZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.temperature_turn_on_office","state":"on","attributes":{"id":"1711139975912","last_triggered":"2024-03-23T11:55:00.310300+00:00","mode":"single","current":0,"friendly_name":"Temperature turn on office"},"last_changed":"2024-03-24T14:31:14.571854+00:00","last_updated":"2024-03-24T14:31:14.571854+00:00","context":{"id":"01HSRDYVCB84PZH7YC5M56RE45","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"automation.periodic_sensor_check_and_lamp_control","state":"on","attributes":{"id":"1711219274022","last_triggered":"2024-03-24T13:24:00.123844+00:00","mode":"single","current":0,"friendly_name":"Periodic Sensor Check and Lamp Control"},"last_changed":"2024-03-24T12:23:57.967764+00:00","last_updated":"2024-03-24T13:24:00.145190+00:00","context":{"id":"01HSRA3QFV932RHXFYHCAR7FPH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.periodic_sensor_check_and_lamp_control","state":"on","attributes":{"id":"1711219274022","last_triggered":"2024-03-25T00:01:00.232355+00:00","mode":"single","current":0,"friendly_name":"Periodic Sensor Check and Lamp Control"},"last_changed":"2024-03-24T14:31:14.572686+00:00","last_updated":"2024-03-25T00:01:00.251315+00:00","context":{"id":"01HSSEJ3T7Z1TXR5JKSDHVG7XD","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"binary_sensor.moezs_iphone_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Moez’s iPhone Focus"},"last_changed":"2024-03-24T12:24:02.170030+00:00","last_updated":"2024-03-24T12:24:02.170030+00:00","context":{"id":"01HSR6NXVT36FE1FZSPZGKG6RZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.automate_backup","state":"on","attributes":{"id":"1711282945961","last_triggered":"2024-03-24T12:26:00.204214+00:00","mode":"single","current":0,"friendly_name":"automate_backup"},"last_changed":"2024-03-24T14:31:14.573478+00:00","last_updated":"2024-03-24T14:31:14.573478+00:00","context":{"id":"01HSRDYVCDFQ7M888Q4C9YAR31","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"device_tracker.moezs_iphone","state":"home","attributes":{"source_type":"gps","battery_level":85,"latitude":59.6402587890625,"longitude":10.831083126861937,"gps_accuracy":19.66862078299143,"altitude":108.27758026123047,"vertical_accuracy":21.92816734313965,"friendly_name":"Moez’s iPhone"},"last_changed":"2024-03-24T12:24:02.174153+00:00","last_updated":"2024-03-24T12:24:02.174153+00:00","context":{"id":"01HSR6NXVY195NHCMVTQ2QCA0M","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.moezs_iphone_focus","state":"on","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Moez’s iPhone Focus"},"last_changed":"2024-03-24T22:28:10.984644+00:00","last_updated":"2024-03-24T22:28:10.984644+00:00","context":{"id":"01HSS98538S7P8W3XDNC1NP6PG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_battery_level","state":"35","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-30","friendly_name":"Moez’s iPhone Battery Level"},"last_changed":"2024-03-24T13:01:19.971086+00:00","last_updated":"2024-03-24T13:01:19.971086+00:00","context":{"id":"01HSR8T773NM23PM6H7QVDVJ64","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"device_tracker.moezs_iphone","state":"home","attributes":{"source_type":"gps","battery_level":20,"latitude":59.64007568359375,"longitude":10.830910457308246,"gps_accuracy":7.827049612866701,"altitude":110.16244888305664,"course":281.953125,"speed":0.27000001072883606,"vertical_accuracy":8,"friendly_name":"Moez’s iPhone"},"last_changed":"2024-03-24T23:06:32.728653+00:00","last_updated":"2024-03-24T23:06:32.728653+00:00","context":{"id":"01HSSBECWR2EEY23PG0YGPSE9C","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.moezs_iphone_battery_level","state":"15","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-10","friendly_name":"Moez’s iPhone Battery Level"},"last_changed":"2024-03-24T23:31:22.921828+00:00","last_updated":"2024-03-24T23:31:22.921828+00:00","context":{"id":"01HSSCVW59HEYTMBM4KFH7MSAV","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 35,
+        "native_value": 15,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_storage","state":"18.13","attributes":{"Available":"6,83 GB","Available (Important)":"30,40 GB","Available (Opportunistic)":"23,18 GB","Total":"127,88 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Moez’s iPhone Storage"},"last_changed":"2024-03-24T13:17:03.722270+00:00","last_updated":"2024-03-24T13:17:03.722270+00:00","context":{"id":"01HSR9Q0VA0CMN1VN044D3T1A2","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_storage","state":"19.08","attributes":{"Available":"7,03 GB","Available (Important)":"30,57 GB","Available (Opportunistic)":"24,40 GB","Total":"127,88 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Moez’s iPhone Storage"},"last_changed":"2024-03-24T23:31:22.922690+00:00","last_updated":"2024-03-24T23:49:32.718267+00:00","context":{"id":"01HSSDX4DE2X37R971W9PEBJ90","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "18.13",
+        "native_value": "19.08",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Moez’s iPhone Connection Type"},"last_changed":"2024-03-24T12:24:02.179712+00:00","last_updated":"2024-03-24T12:24:02.179712+00:00","context":{"id":"01HSR6NXW3HR4XWBGSMY7HWRDS","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Moez’s iPhone Connection Type"},"last_changed":"2024-03-24T23:08:27.356820+00:00","last_updated":"2024-03-24T23:08:27.356820+00:00","context":{"id":"01HSSBHWTWXSR15BAVYTEHEJGM","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_bssid","state":"10:71:b3:90:89:7d","attributes":{"icon":"mdi:wifi-star","friendly_name":"Moez’s iPhone BSSID"},"last_changed":"2024-03-24T12:24:02.180223+00:00","last_updated":"2024-03-24T12:24:02.180223+00:00","context":{"id":"01HSR6NXW4SWMGV0988WY4RWZJ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_bssid","state":"10:71:b3:90:89:7d","attributes":{"icon":"mdi:wifi-star","friendly_name":"Moez’s iPhone BSSID"},"last_changed":"2024-03-24T23:08:27.356528+00:00","last_updated":"2024-03-24T23:08:27.356528+00:00","context":{"id":"01HSSBHWTW9HEYHAZX2MY3C28T","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "10:71:b3:90:89:7d",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":true,"icon":"mdi:battery-30","friendly_name":"Moez’s iPhone Battery State"},"last_changed":"2024-03-24T12:24:02.180728+00:00","last_updated":"2024-03-24T13:01:19.971862+00:00","context":{"id":"01HSR8T773DNEYKV2AEHSFB3HK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":true,"icon":"mdi:battery-10","friendly_name":"Moez’s iPhone Battery State"},"last_changed":"2024-03-24T17:32:51.893223+00:00","last_updated":"2024-03-24T23:31:22.922256+00:00","context":{"id":"01HSSCVW5AXK7E0PHQEJD3ZF06","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Moez’s iPhone SIM 1"},"last_changed":"2024-03-24T12:24:02.181247+00:00","last_updated":"2024-03-24T12:24:02.181247+00:00","context":{"id":"01HSR6NXW51FGTVKTA3WZJ6M57","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Moez’s iPhone SIM 1"},"last_changed":"2024-03-24T14:31:18.583475+00:00","last_updated":"2024-03-24T14:31:18.583475+00:00","context":{"id":"01HSRDYZ9QRN290SXH7KR7F3C0","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_ssid","state":"ImenogMoez","attributes":{"icon":"mdi:wifi","friendly_name":"Moez’s iPhone SSID"},"last_changed":"2024-03-24T12:24:02.181808+00:00","last_updated":"2024-03-24T12:24:02.181808+00:00","context":{"id":"01HSR6NXW5X4HHFCFFN1MS6YEB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_ssid","state":"ImenogMoez","attributes":{"icon":"mdi:wifi","friendly_name":"Moez’s iPhone SSID"},"last_changed":"2024-03-24T23:08:27.356241+00:00","last_updated":"2024-03-24T23:08:27.356241+00:00","context":{"id":"01HSSBHWTWPZTR79AMS6A83MWT","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "ImenogMoez",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Moez’s iPhone SIM 2"},"last_changed":"2024-03-24T12:24:02.182312+00:00","last_updated":"2024-03-24T12:24:02.182312+00:00","context":{"id":"01HSR6NXW620NJAENTRYW6MHXX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","Current Radio Technology":"5G Non-Standalone","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Moez’s iPhone SIM 2"},"last_changed":"2024-03-24T14:31:18.584702+00:00","last_updated":"2024-03-24T17:22:51.993735+00:00","context":{"id":"01HSRQS3ES9F1NHQRX9JEC0XJ9","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Moez’s iPhone Last Update Trigger"},"last_changed":"2024-03-24T12:24:02.182824+00:00","last_updated":"2024-03-24T12:24:02.182824+00:00","context":{"id":"01HSR6NXW6H5KE2NXRDAPHC3HH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Moez’s iPhone Last Update Trigger"},"last_changed":"2024-03-24T23:21:21.983291+00:00","last_updated":"2024-03-24T23:21:21.983291+00:00","context":{"id":"01HSSC9H9ZP605EF9SCZV76ZH7","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_geocoded_location","state":"Sørliveien 6\n1435 Ås\nNorway","attributes":{"Administrative Area":"30","Areas Of Interest":"N/A","Country":"Norway","Inland Water":"N/A","ISO Country Code":"NO","Locality":"Ås","Location":[59.6402587890625,10.831083126861937],"Name":"Sørliveien 6","Ocean":"N/A","Postal Code":"1435","Sub Administrative Area":"Ås Municipality","Sub Locality":"N/A","Sub Thoroughfare":"6","Thoroughfare":"Sørliveien","Time Zone":"Europe/Oslo","Zones":["Home","Home"],"icon":"mdi:map","friendly_name":"Moez’s iPhone Geocoded Location"},"last_changed":"2024-03-24T12:24:02.183497+00:00","last_updated":"2024-03-24T12:24:02.183497+00:00","context":{"id":"01HSR6NXW7PDKSMCT2EQCA6WQG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_geocoded_location","state":"Sørliveien 6\n1435 Ås\nNorway","attributes":{"Administrative Area":"30","Areas Of Interest":"N/A","Country":"Norway","Inland Water":"N/A","ISO Country Code":"NO","Locality":"Ås","Location":[59.64007568359375,10.830910457308246],"Name":"Sørliveien 6","Ocean":"N/A","Postal Code":"1435","Sub Administrative Area":"Ås Municipality","Sub Locality":"N/A","Sub Thoroughfare":"6","Thoroughfare":"Sørliveien","Time Zone":"Europe/Oslo","Zones":["Home","Home"],"icon":"mdi:map","friendly_name":"Moez’s iPhone Geocoded Location"},"last_changed":"2024-03-24T23:06:32.504306+00:00","last_updated":"2024-03-24T23:06:32.504306+00:00","context":{"id":"01HSSBECNRNG6YGDA4YCHV7A8D","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Sørliveien 6\n1435 Ås\nNorway",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Moez’s iPhone Activity"},"last_changed":"2024-03-24T13:01:19.967940+00:00","last_updated":"2024-03-24T13:01:19.967940+00:00","context":{"id":"01HSR8T76Z29P5Z607DPEM68Q4","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Moez’s iPhone Activity"},"last_changed":"2024-03-24T23:57:39.963644+00:00","last_updated":"2024-03-24T23:57:39.963644+00:00","context":{"id":"01HSSEC07VNETW6J7Y1H1AFG38","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Stationary",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_distance","state":"430","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Moez’s iPhone Distance"},"last_changed":"2024-03-24T12:24:02.184882+00:00","last_updated":"2024-03-24T12:24:02.184882+00:00","context":{"id":"01HSR6NXW8042WZZDCQZVBPHXV","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_distance","state":"128","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Moez’s iPhone Distance"},"last_changed":"2024-03-24T23:41:55.087530+00:00","last_updated":"2024-03-24T23:41:55.087530+00:00","context":{"id":"01HSSDF5GFE0N9XS2FAX05MQKS","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 430,
+        "native_value": 128,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Moez’s iPhone Floors Ascended"},"last_changed":"2024-03-24T12:24:02.185590+00:00","last_updated":"2024-03-24T12:24:02.185590+00:00","context":{"id":"01HSR6NXW9P1ET9PM4N1PFHA00","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Moez’s iPhone Floors Ascended"},"last_changed":"2024-03-24T23:05:13.112632+00:00","last_updated":"2024-03-24T23:05:13.112632+00:00","context":{"id":"01HSSBBZ4RT0MX9KGSF4XD6249","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 0,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_steps","state":"678","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Moez’s iPhone Steps"},"last_changed":"2024-03-24T12:24:02.186185+00:00","last_updated":"2024-03-24T12:24:02.186185+00:00","context":{"id":"01HSR6NXWAK8X4K72W4AMZX84C","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_steps","state":"214","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Moez’s iPhone Steps"},"last_changed":"2024-03-24T23:41:55.088467+00:00","last_updated":"2024-03-24T23:41:55.088467+00:00","context":{"id":"01HSSDF5GGR4N9VFCT0ZG7C97E","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 678,
+        "native_value": 214,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Moez’s iPhone Average Active Pace"},"last_changed":"2024-03-24T12:24:02.186682+00:00","last_updated":"2024-03-24T12:24:02.186682+00:00","context":{"id":"01HSR6NXWANSQ52PBDZ35CTWTB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_average_active_pace","state":"2","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Moez’s iPhone Average Active Pace"},"last_changed":"2024-03-24T23:31:22.921350+00:00","last_updated":"2024-03-24T23:31:22.921350+00:00","context":{"id":"01HSSCVW59MZWBEFKS975NM350","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 1,
+        "native_value": 2,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.moezs_iphone_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Moez’s iPhone Floors Descended"},"last_changed":"2024-03-24T12:24:02.187155+00:00","last_updated":"2024-03-24T12:24:02.187155+00:00","context":{"id":"01HSR6NXWB42Y6YRPPBTJ28KKY","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.moezs_iphone_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Moez’s iPhone Floors Descended"},"last_changed":"2024-03-24T23:05:13.112871+00:00","last_updated":"2024-03-24T23:05:13.112871+00:00","context":{"id":"01HSSBBZ4RZDY6NAJQXX4J5CWW","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 0,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"binary_sensor.home_assistance_phone_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Home Assistance Phone Focus"},"last_changed":"2024-03-24T12:24:02.188843+00:00","last_updated":"2024-03-24T12:24:02.188843+00:00","context":{"id":"01HSR6NXWC38ZACDFBSK1K3Z2Q","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.home_assistance_phone_focus","state":"on","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Home Assistance Phone Focus"},"last_changed":"2024-03-24T22:28:11.001525+00:00","last_updated":"2024-03-24T22:28:11.001525+00:00","context":{"id":"01HSS9853SK3YVABCSNS3X9662","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"device_tracker.home_assistance_phone","state":"home","attributes":{"source_type":"gps","battery_level":85,"latitude":59.6402587890625,"longitude":10.831083126861937,"gps_accuracy":19.66862078299143,"altitude":108.27758026123047,"vertical_accuracy":21.92816734313965,"friendly_name":"Home Assistance Phone"},"last_changed":"2024-03-24T12:24:02.189966+00:00","last_updated":"2024-03-24T12:24:02.189966+00:00","context":{"id":"01HSR6NXWDQ8SS658A1EZ4TBCC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"device_tracker.home_assistance_phone","state":"home","attributes":{"source_type":"gps","battery_level":20,"latitude":59.64007568359375,"longitude":10.830910457308246,"gps_accuracy":7.827049612866701,"altitude":110.16244888305664,"course":281.953125,"speed":0.27000001072883606,"vertical_accuracy":8,"friendly_name":"Home Assistance Phone"},"last_changed":"2024-03-24T23:06:32.750752+00:00","last_updated":"2024-03-24T23:06:32.750752+00:00","context":{"id":"01HSSBECXEQTRRCWEY2ZXS13JZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Home Assistance Phone Floors Ascended"},"last_changed":"2024-03-24T12:24:02.191856+00:00","last_updated":"2024-03-24T12:24:02.191856+00:00","context":{"id":"01HSR6NXWF4MJ68MZK54E7XB20","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Home Assistance Phone Floors Ascended"},"last_changed":"2024-03-24T23:05:13.130010+00:00","last_updated":"2024-03-24T23:05:13.130010+00:00","context":{"id":"01HSSBBZ5ASMX0DA0VWKRHBCN4","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 0,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_distance","state":"430","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Home Assistance Phone Distance"},"last_changed":"2024-03-24T12:24:02.192461+00:00","last_updated":"2024-03-24T12:24:02.192461+00:00","context":{"id":"01HSR6NXWGJ8PC5NF9GBBQZHM5","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_distance","state":"128","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Home Assistance Phone Distance"},"last_changed":"2024-03-24T23:41:55.185346+00:00","last_updated":"2024-03-24T23:41:55.185346+00:00","context":{"id":"01HSSDF5KH7ERYAXH4SQM6TWJT","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 430,
+        "native_value": 128,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Home Assistance Phone Floors Descended"},"last_changed":"2024-03-24T12:24:02.193127+00:00","last_updated":"2024-03-24T12:24:02.193127+00:00","context":{"id":"01HSR6NXWHJXVCMPSN4W46TMME","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Home Assistance Phone Floors Descended"},"last_changed":"2024-03-24T23:05:13.130262+00:00","last_updated":"2024-03-24T23:05:13.130262+00:00","context":{"id":"01HSSBBZ5APSBCGQV3J6S3480W","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 0,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_battery_level","state":"35","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-30","friendly_name":"Home Assistance Phone Battery Level"},"last_changed":"2024-03-24T13:01:20.057800+00:00","last_updated":"2024-03-24T13:01:20.057800+00:00","context":{"id":"01HSR8T79S1C6Z9JCWPRT5JSZN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_battery_level","state":"15","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-10","friendly_name":"Home Assistance Phone Battery Level"},"last_changed":"2024-03-24T23:31:23.026159+00:00","last_updated":"2024-03-24T23:31:23.026159+00:00","context":{"id":"01HSSCVW8J0M4AZ0AG5RZN03XZ","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 35,
+        "native_value": 15,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_storage","state":"18.13","attributes":{"Available":"6,83 GB","Available (Important)":"30,40 GB","Available (Opportunistic)":"23,18 GB","Total":"127,88 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Home Assistance Phone Storage"},"last_changed":"2024-03-24T13:17:03.836576+00:00","last_updated":"2024-03-24T13:17:03.836576+00:00","context":{"id":"01HSR9Q0YW9S0JZ59ZF0NYXXE7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_storage","state":"19.08","attributes":{"Available":"7,03 GB","Available (Important)":"30,57 GB","Available (Opportunistic)":"24,40 GB","Total":"127,88 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Home Assistance Phone Storage"},"last_changed":"2024-03-24T23:31:23.026658+00:00","last_updated":"2024-03-24T23:49:32.785131+00:00","context":{"id":"01HSSDX4FH77WM924NJY04J66Y","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "18.13",
+        "native_value": "19.08",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Home Assistance Phone Average Active Pace"},"last_changed":"2024-03-24T12:24:02.194762+00:00","last_updated":"2024-03-24T12:24:02.194762+00:00","context":{"id":"01HSR6NXWJAKXDJRX7VD11D6NS","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_average_active_pace","state":"2","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Home Assistance Phone Average Active Pace"},"last_changed":"2024-03-24T23:31:23.025908+00:00","last_updated":"2024-03-24T23:31:23.025908+00:00","context":{"id":"01HSSCVW8HFV448KMVPYJM88HK","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 1,
+        "native_value": 2,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_bssid","state":"10:71:b3:90:89:7d","attributes":{"icon":"mdi:wifi-star","friendly_name":"Home Assistance Phone BSSID"},"last_changed":"2024-03-24T12:24:02.195260+00:00","last_updated":"2024-03-24T12:24:02.195260+00:00","context":{"id":"01HSR6NXWKQQP7NQSY21D2G7A8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_bssid","state":"10:71:b3:90:89:7d","attributes":{"icon":"mdi:wifi-star","friendly_name":"Home Assistance Phone BSSID"},"last_changed":"2024-03-24T23:09:44.446716+00:00","last_updated":"2024-03-24T23:09:44.446716+00:00","context":{"id":"01HSSBM83YQY1WKYE6HS1M40QX","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "10:71:b3:90:89:7d",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_steps","state":"678","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Home Assistance Phone Steps"},"last_changed":"2024-03-24T12:24:02.196105+00:00","last_updated":"2024-03-24T12:24:02.196105+00:00","context":{"id":"01HSR6NXWM3ENQW67X0TD4Q1TY","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_steps","state":"214","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Home Assistance Phone Steps"},"last_changed":"2024-03-24T23:41:55.186314+00:00","last_updated":"2024-03-24T23:41:55.186314+00:00","context":{"id":"01HSSDF5KJT5KFF8ZM16SW8XHW","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 678,
+        "native_value": 214,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_ssid","state":"ImenogMoez","attributes":{"icon":"mdi:wifi","friendly_name":"Home Assistance Phone SSID"},"last_changed":"2024-03-24T12:24:02.196675+00:00","last_updated":"2024-03-24T12:24:02.196675+00:00","context":{"id":"01HSR6NXWMVYTSXGPYRZX677C2","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_ssid","state":"ImenogMoez","attributes":{"icon":"mdi:wifi","friendly_name":"Home Assistance Phone SSID"},"last_changed":"2024-03-24T23:09:44.446166+00:00","last_updated":"2024-03-24T23:09:44.446166+00:00","context":{"id":"01HSSBM83YVFSWHR4PTYBV08GG","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "ImenogMoez",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":true,"icon":"mdi:battery-30","friendly_name":"Home Assistance Phone Battery State"},"last_changed":"2024-03-24T12:24:02.197189+00:00","last_updated":"2024-03-24T13:01:20.058484+00:00","context":{"id":"01HSR8T79TWRQW2AGA4JX9M1HK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":true,"icon":"mdi:battery-10","friendly_name":"Home Assistance Phone Battery State"},"last_changed":"2024-03-24T17:32:51.705314+00:00","last_updated":"2024-03-24T23:31:23.026406+00:00","context":{"id":"01HSSCVW8JPM5YH1F2381K2AQP","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Home Assistance Phone SIM 1"},"last_changed":"2024-03-24T12:24:02.197963+00:00","last_updated":"2024-03-24T12:24:02.197963+00:00","context":{"id":"01HSR6NXWNXXWT7SD724637D50","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Home Assistance Phone SIM 1"},"last_changed":"2024-03-24T14:31:18.599829+00:00","last_updated":"2024-03-24T14:31:18.599829+00:00","context":{"id":"01HSRDYZA7M8045GWSNH1218H6","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Home Assistance Phone Last Update Trigger"},"last_changed":"2024-03-24T12:24:02.198522+00:00","last_updated":"2024-03-24T12:24:02.198522+00:00","context":{"id":"01HSR6NXWP7KGSX3RY5T84MT4Y","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Home Assistance Phone Last Update Trigger"},"last_changed":"2024-03-24T23:21:21.997031+00:00","last_updated":"2024-03-24T23:21:21.997031+00:00","context":{"id":"01HSSC9HADRP1ZNVBB8HG3GH4F","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Home Assistance Phone Connection Type"},"last_changed":"2024-03-24T12:24:02.199005+00:00","last_updated":"2024-03-24T12:24:02.199005+00:00","context":{"id":"01HSR6NXWQ21EAJN6CBNR4XVQS","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Home Assistance Phone Connection Type"},"last_changed":"2024-03-24T23:09:44.451291+00:00","last_updated":"2024-03-24T23:09:44.451291+00:00","context":{"id":"01HSSBM8435FR4P5TR4K52D0VC","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_geocoded_location","state":"Sørliveien 6\n1435 Ås\nNorway","attributes":{"Administrative Area":"30","Areas Of Interest":"N/A","Country":"Norway","Inland Water":"N/A","ISO Country Code":"NO","Locality":"Ås","Location":[59.6402587890625,10.831083126861937],"Name":"Sørliveien 6","Ocean":"N/A","Postal Code":"1435","Sub Administrative Area":"Ås Municipality","Sub Locality":"N/A","Sub Thoroughfare":"6","Thoroughfare":"Sørliveien","Time Zone":"Europe/Oslo","Zones":["Home","Home"],"icon":"mdi:map","friendly_name":"Home Assistance Phone Geocoded Location"},"last_changed":"2024-03-24T12:24:02.199851+00:00","last_updated":"2024-03-24T12:24:02.199851+00:00","context":{"id":"01HSR6NXWQW93Z635JV87GSP4M","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_geocoded_location","state":"Sørliveien 6\n1435 Ås\nNorway","attributes":{"Administrative Area":"30","Areas Of Interest":"N/A","Country":"Norway","Inland Water":"N/A","ISO Country Code":"NO","Locality":"Ås","Location":[59.64007568359375,10.830910457308246],"Name":"Sørliveien 6","Ocean":"N/A","Postal Code":"1435","Sub Administrative Area":"Ås Municipality","Sub Locality":"N/A","Sub Thoroughfare":"6","Thoroughfare":"Sørliveien","Time Zone":"Europe/Oslo","Zones":["Home","Home"],"icon":"mdi:map","friendly_name":"Home Assistance Phone Geocoded Location"},"last_changed":"2024-03-24T23:06:32.575642+00:00","last_updated":"2024-03-24T23:06:32.575642+00:00","context":{"id":"01HSSBECQZD63ZB5HEY50Q05FN","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Sørliveien 6\n1435 Ås\nNorway",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Home Assistance Phone SIM 2"},"last_changed":"2024-03-24T12:24:02.200445+00:00","last_updated":"2024-03-24T12:24:02.200445+00:00","context":{"id":"01HSR6NXWRTJTQCCT7JY23G0PS","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","Current Radio Technology":"5G Non-Standalone","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Home Assistance Phone SIM 2"},"last_changed":"2024-03-24T14:31:18.601849+00:00","last_updated":"2024-03-24T17:22:51.888524+00:00","context":{"id":"01HSRQS3BGJVT7WTTPHCMH7X1V","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.home_assistance_phone_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Home Assistance Phone Activity"},"last_changed":"2024-03-24T13:01:20.055065+00:00","last_updated":"2024-03-24T13:01:20.055065+00:00","context":{"id":"01HSR8T79Q2PGQ1YFH81VM97EB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.home_assistance_phone_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Home Assistance Phone Activity"},"last_changed":"2024-03-24T23:57:39.345963+00:00","last_updated":"2024-03-24T23:57:39.345963+00:00","context":{"id":"01HSSEBZMHREDH6BGQS5XVM6VW","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Stationary",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"binary_sensor.sensor_motion","state":"off","attributes":{"migrated_to_cache":true,"device_class":"motion","friendly_name":"sensor Motion"},"last_changed":"2024-03-24T12:24:09.306704+00:00","last_updated":"2024-03-24T12:24:09.306704+00:00","context":{"id":"01HSR6P4TTA36PK8JNS6HENDXQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.sensor_motion","state":"off","attributes":{"migrated_to_cache":true,"device_class":"motion","friendly_name":"sensor Motion"},"last_changed":"2024-03-24T15:39:48.309254+00:00","last_updated":"2024-03-24T15:39:48.309254+00:00","context":{"id":"01HSRHWCPNFCN2893KCC774TKM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"binary_sensor.tze200_3towulqd_ts0601_motion","state":"off","attributes":{"migrated_to_cache":true,"device_class":"motion","friendly_name":"Sensor movement entrance Motion"},"last_changed":"2024-03-24T12:24:09.308420+00:00","last_updated":"2024-03-24T12:24:09.308420+00:00","context":{"id":"01HSR6P4TWKKAWZMAG6NAGWD1G","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.tze200_3towulqd_ts0601_motion","state":"off","attributes":{"migrated_to_cache":true,"device_class":"motion","friendly_name":"Sensor movement entrance Motion"},"last_changed":"2024-03-24T23:28:26.731151+00:00","last_updated":"2024-03-24T23:28:26.731151+00:00","context":{"id":"01HSSCPG3B14BBMM840T2TZQMZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"button.sensor_m_identify","state":"2024-03-13T12:08:29.403989+00:00","attributes":{"device_class":"identify","friendly_name":"sensor Identify"},"last_changed":"2024-03-24T12:24:09.310524+00:00","last_updated":"2024-03-24T12:24:09.310524+00:00","context":{"id":"01HSR6P4TYEEV1XKN681ESSQVE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.sensor_m_identify","state":"2024-03-13T12:08:29.403989+00:00","attributes":{"device_class":"identify","friendly_name":"sensor Identify"},"last_changed":"2024-03-24T14:31:25.837092+00:00","last_updated":"2024-03-24T14:31:25.837092+00:00","context":{"id":"01HSRDZ6CDEEV1XKN681ESSQVE","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"button.ikea_of_sweden_tradfri_remote_control_identify","state":"unavailable","attributes":{"device_class":"identify","friendly_name":"IKEA of Sweden TRADFRI remote control Identify"},"last_changed":"2024-03-24T12:24:09.311864+00:00","last_updated":"2024-03-24T12:24:09.311864+00:00","context":{"id":"01HSR6P4TZX9ZPT436JRBH6HXQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.ikea_of_sweden_tradfri_remote_control_identify","state":"unavailable","attributes":{"device_class":"identify","friendly_name":"IKEA of Sweden TRADFRI remote control Identify"},"last_changed":"2024-03-24T14:31:25.839686+00:00","last_updated":"2024-03-24T14:31:25.839686+00:00","context":{"id":"01HSRDZ6CFX9ZPT436JRBH6HXQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"button.ikea_of_sweden_tradfri_control_outlet_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"plug office Identify"},"last_changed":"2024-03-24T12:24:09.313662+00:00","last_updated":"2024-03-24T12:24:09.313662+00:00","context":{"id":"01HSR6P4V10VGZRZS32C7S8W74","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.ikea_of_sweden_tradfri_control_outlet_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"plug office Identify"},"last_changed":"2024-03-24T14:31:25.842682+00:00","last_updated":"2024-03-24T14:31:25.842682+00:00","context":{"id":"01HSRDZ6CJ0VGZRZS32C7S8W74","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"button.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"lamp Identify"},"last_changed":"2024-03-24T12:24:09.315169+00:00","last_updated":"2024-03-24T12:24:09.315169+00:00","context":{"id":"01HSR6P4V3X54T4FFK1NFJ3210","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"lamp Identify"},"last_changed":"2024-03-24T14:31:25.845289+00:00","last_updated":"2024-03-24T14:31:25.845289+00:00","context":{"id":"01HSRDZ6CNX54T4FFK1NFJ3210","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"button.ewelink_ck_bl702_al_01_7009_z102lg03_1_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Lamp entrance Identify"},"last_changed":"2024-03-24T12:24:09.318026+00:00","last_updated":"2024-03-24T12:24:09.318026+00:00","context":{"id":"01HSR6P4V6PX68QM19Q8WAA12M","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.ewelink_ck_bl702_al_01_7009_z102lg03_1_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Lamp entrance Identify"},"last_changed":"2024-03-24T14:31:25.848111+00:00","last_updated":"2024-03-24T14:31:25.848111+00:00","context":{"id":"01HSRDZ6CRPX68QM19Q8WAA12M","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"button.tze200_3towulqd_ts0601_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Sensor movement entrance Identify"},"last_changed":"2024-03-24T12:24:09.319614+00:00","last_updated":"2024-03-24T12:24:09.319614+00:00","context":{"id":"01HSR6P4V7D0QE7EBN1Y2JK7A9","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.tze200_3towulqd_ts0601_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Sensor movement entrance Identify"},"last_changed":"2024-03-24T14:31:25.850639+00:00","last_updated":"2024-03-24T14:31:25.850639+00:00","context":{"id":"01HSRDZ6CTD0QE7EBN1Y2JK7A9","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"light.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_light","state":"off","attributes":{"min_color_temp_kelvin":2202,"max_color_temp_kelvin":4000,"min_mireds":250,"max_mireds":454,"effect_list":["colorloop"],"supported_color_modes":["color_temp","xy"],"effect":null,"color_mode":null,"brightness":null,"color_temp_kelvin":null,"color_temp":null,"hs_color":null,"rgb_color":null,"xy_color":null,"off_with_transition":false,"off_brightness":254,"friendly_name":"lamp Light","supported_features":44},"last_changed":"2024-03-24T12:24:09.323277+00:00","last_updated":"2024-03-24T12:24:09.323277+00:00","context":{"id":"01HSR6P4VBXR6B1GQWKQEQ78DZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"light.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_light","state":"off","attributes":{"min_color_temp_kelvin":2202,"max_color_temp_kelvin":4000,"min_mireds":250,"max_mireds":454,"effect_list":["colorloop"],"supported_color_modes":["color_temp","xy"],"effect":null,"color_mode":null,"brightness":null,"color_temp_kelvin":null,"color_temp":null,"hs_color":null,"rgb_color":null,"xy_color":null,"off_with_transition":false,"off_brightness":254,"friendly_name":"lamp Light","supported_features":44},"last_changed":"2024-03-24T14:31:25.856061+00:00","last_updated":"2024-03-24T14:31:25.856061+00:00","context":{"id":"01HSRDZ6D0XR6B1GQWKQEQ78DZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"light.ewelink_ck_bl702_al_01_7009_z102lg03_1_light","state":"off","attributes":{"min_color_temp_kelvin":2000,"max_color_temp_kelvin":7042,"min_mireds":142,"max_mireds":500,"effect_list":["colorloop"],"supported_color_modes":["color_temp","xy"],"effect":null,"color_mode":null,"brightness":null,"color_temp_kelvin":null,"color_temp":null,"hs_color":null,"rgb_color":null,"xy_color":null,"off_with_transition":false,"off_brightness":253,"friendly_name":"Lamp entrance Light","supported_features":44},"last_changed":"2024-03-24T12:24:09.325375+00:00","last_updated":"2024-03-24T12:24:09.325375+00:00","context":{"id":"01HSR6P4VDTKM9YBZD2YS781TY","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"light.ewelink_ck_bl702_al_01_7009_z102lg03_1_light","state":"off","attributes":{"min_color_temp_kelvin":2000,"max_color_temp_kelvin":7042,"min_mireds":142,"max_mireds":500,"effect_list":["colorloop"],"supported_color_modes":["color_temp","xy"],"effect":null,"color_mode":null,"brightness":null,"color_temp_kelvin":null,"color_temp":null,"hs_color":null,"rgb_color":null,"xy_color":null,"off_with_transition":false,"off_brightness":253,"friendly_name":"Lamp entrance Light","supported_features":44},"last_changed":"2024-03-24T23:11:00.309258+00:00","last_updated":"2024-03-24T23:11:00.309258+00:00","context":{"id":"01HSSBPJ47GSM8G07Y0MXVK95K","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"number.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_on_level","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"lamp On level"},"last_changed":"2024-03-24T12:24:09.328090+00:00","last_updated":"2024-03-24T12:24:09.328090+00:00","context":{"id":"01HSR6P4VGWNSPAB2BWW7XJ9Y4","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_on_level","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"lamp On level"},"last_changed":"2024-03-24T14:31:25.864119+00:00","last_updated":"2024-03-24T14:31:25.864119+00:00","context":{"id":"01HSRDZ6D8WNSPAB2BWW7XJ9Y4","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"number.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_start_up_current_level","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"lamp Start-up current level"},"last_changed":"2024-03-24T12:24:09.330070+00:00","last_updated":"2024-03-24T12:24:09.330070+00:00","context":{"id":"01HSR6P4VJ8XGA77H35R24T1NG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_start_up_current_level","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"lamp Start-up current level"},"last_changed":"2024-03-24T14:31:25.867082+00:00","last_updated":"2024-03-24T14:31:25.867082+00:00","context":{"id":"01HSRDZ6DB8XGA77H35R24T1NG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"number.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_start_up_color_temperature","state":"65535","attributes":{"min":250,"max":454,"step":1.0,"mode":"auto","friendly_name":"lamp Start-up color temperature"},"last_changed":"2024-03-24T12:24:09.331610+00:00","last_updated":"2024-03-24T12:24:09.331610+00:00","context":{"id":"01HSR6P4VKF6TF5C7HFF9ETDBC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_start_up_color_temperature","state":"65535","attributes":{"min":250,"max":454,"step":1.0,"mode":"auto","friendly_name":"lamp Start-up color temperature"},"last_changed":"2024-03-24T14:31:25.870000+00:00","last_updated":"2024-03-24T14:31:25.870000+00:00","context":{"id":"01HSRDZ6DEF6TF5C7HFF9ETDBC","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"number.ewelink_ck_bl702_al_01_7009_z102lg03_1_on_off_transition_time","state":"0","attributes":{"min":0,"max":65535,"step":1.0,"mode":"auto","friendly_name":"Lamp entrance On/Off transition time"},"last_changed":"2024-03-24T12:24:09.333233+00:00","last_updated":"2024-03-24T12:24:09.333233+00:00","context":{"id":"01HSR6P4VNPCPE628S6JBDDW0T","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.ewelink_ck_bl702_al_01_7009_z102lg03_1_on_off_transition_time","state":"0","attributes":{"min":0,"max":65535,"step":1.0,"mode":"auto","friendly_name":"Lamp entrance On/Off transition time"},"last_changed":"2024-03-24T14:31:25.872870+00:00","last_updated":"2024-03-24T14:31:25.872870+00:00","context":{"id":"01HSRDZ6DGPCPE628S6JBDDW0T","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"number.ewelink_ck_bl702_al_01_7009_z102lg03_1_on_level","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Lamp entrance On level"},"last_changed":"2024-03-24T12:24:09.334969+00:00","last_updated":"2024-03-24T12:24:09.334969+00:00","context":{"id":"01HSR6P4VPHQ270QX5KDT7CFWX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.ewelink_ck_bl702_al_01_7009_z102lg03_1_on_level","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Lamp entrance On level"},"last_changed":"2024-03-24T14:31:25.875495+00:00","last_updated":"2024-03-24T14:31:25.875495+00:00","context":{"id":"01HSRDZ6DKHQ270QX5KDT7CFWX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"number.ewelink_ck_bl702_al_01_7009_z102lg03_1_start_up_current_level","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Lamp entrance Start-up current level"},"last_changed":"2024-03-24T12:24:09.336349+00:00","last_updated":"2024-03-24T12:24:09.336349+00:00","context":{"id":"01HSR6P4VR8NHSBKA2K1GA1AAQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.ewelink_ck_bl702_al_01_7009_z102lg03_1_start_up_current_level","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Lamp entrance Start-up current level"},"last_changed":"2024-03-24T14:31:25.878348+00:00","last_updated":"2024-03-24T14:31:25.878348+00:00","context":{"id":"01HSRDZ6DP8NHSBKA2K1GA1AAQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"number.ewelink_ck_bl702_al_01_7009_z102lg03_1_start_up_color_temperature","state":"65535","attributes":{"min":142,"max":500,"step":1.0,"mode":"auto","friendly_name":"Lamp entrance Start-up color temperature"},"last_changed":"2024-03-24T12:24:09.338029+00:00","last_updated":"2024-03-24T12:24:09.338029+00:00","context":{"id":"01HSR6P4VT0P1YAWT655864HF7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.ewelink_ck_bl702_al_01_7009_z102lg03_1_start_up_color_temperature","state":"65535","attributes":{"min":142,"max":500,"step":1.0,"mode":"auto","friendly_name":"Lamp entrance Start-up color temperature"},"last_changed":"2024-03-24T14:31:25.881046+00:00","last_updated":"2024-03-24T14:31:25.881046+00:00","context":{"id":"01HSRDZ6DS0P1YAWT655864HF7","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"select.ikea_of_sweden_tradfri_control_outlet_start_up_behavior","state":"PreviousValue","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"plug office Start-up behavior"},"last_changed":"2024-03-24T12:24:09.340215+00:00","last_updated":"2024-03-24T12:24:09.340215+00:00","context":{"id":"01HSR6P4VW1ZQFVV4JQ884JW70","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.ikea_of_sweden_tradfri_control_outlet_start_up_behavior","state":"PreviousValue","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"plug office Start-up behavior"},"last_changed":"2024-03-24T14:31:25.884508+00:00","last_updated":"2024-03-24T14:31:25.884508+00:00","context":{"id":"01HSRDZ6DW1ZQFVV4JQ884JW70","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"select.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_start_up_behavior","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"lamp Start-up behavior"},"last_changed":"2024-03-24T12:24:09.342299+00:00","last_updated":"2024-03-24T12:24:09.342299+00:00","context":{"id":"01HSR6P4VY6D52FR15ZEF6VDD9","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_start_up_behavior","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"lamp Start-up behavior"},"last_changed":"2024-03-24T14:31:25.887681+00:00","last_updated":"2024-03-24T14:31:25.887681+00:00","context":{"id":"01HSRDZ6DZ6D52FR15ZEF6VDD9","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"select.ewelink_ck_bl702_al_01_7009_z102lg03_1_start_up_behavior","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Lamp entrance Start-up behavior"},"last_changed":"2024-03-24T12:24:09.343729+00:00","last_updated":"2024-03-24T12:24:09.343729+00:00","context":{"id":"01HSR6P4VZTZ1X0QN5R71PA0YB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.ewelink_ck_bl702_al_01_7009_z102lg03_1_start_up_behavior","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Lamp entrance Start-up behavior"},"last_changed":"2024-03-24T14:31:25.890175+00:00","last_updated":"2024-03-24T14:31:25.890175+00:00","context":{"id":"01HSRDZ6E2TZ1X0QN5R71PA0YB","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.sensor_m_battery","state":"94","attributes":{"state_class":"measurement","battery_voltage":2.9,"unit_of_measurement":"%","device_class":"battery","friendly_name":"sensor Battery"},"last_changed":"2024-03-24T12:24:09.414545+00:00","last_updated":"2024-03-24T12:24:09.414545+00:00","context":{"id":"01HSR6P4Y61WA31KZR2KBFC70Z","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.sensor_m_battery","state":"94","attributes":{"state_class":"measurement","battery_voltage":2.9,"unit_of_measurement":"%","device_class":"battery","friendly_name":"sensor Battery"},"last_changed":"2024-03-24T14:31:26.022437+00:00","last_updated":"2024-03-24T14:31:26.022437+00:00","context":{"id":"01HSRDZ6J61WA31KZR2KBFC70Z","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ikea_of_sweden_tradfri_remote_control_battery","state":"unavailable","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"IKEA of Sweden TRADFRI remote control Battery"},"last_changed":"2024-03-24T12:24:09.417638+00:00","last_updated":"2024-03-24T12:24:09.417638+00:00","context":{"id":"01HSR6P4Y9K3NH6GEB710WHVQB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ikea_of_sweden_tradfri_remote_control_battery","state":"unavailable","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"IKEA of Sweden TRADFRI remote control Battery"},"last_changed":"2024-03-24T14:31:26.028036+00:00","last_updated":"2024-03-24T14:31:26.028036+00:00","context":{"id":"01HSRDZ6JCK3NH6GEB710WHVQB","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.tze200_3towulqd_ts0601_battery","state":"100","attributes":{"state_class":"measurement","battery_voltage":3.0,"unit_of_measurement":"%","device_class":"battery","friendly_name":"Sensor movement entrance Battery"},"last_changed":"2024-03-24T12:24:09.423909+00:00","last_updated":"2024-03-24T12:24:09.423909+00:00","context":{"id":"01HSR6P4YFBE8X417RWYFGHVRK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.tze200_3towulqd_ts0601_battery","state":"100","attributes":{"state_class":"measurement","battery_voltage":3.0,"unit_of_measurement":"%","device_class":"battery","friendly_name":"Sensor movement entrance Battery"},"last_changed":"2024-03-24T14:31:26.041220+00:00","last_updated":"2024-03-24T14:31:26.041220+00:00","context":{"id":"01HSRDZ6JSBE8X417RWYFGHVRK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"sensor.tze200_3towulqd_ts0601_illuminance","state":"1714","attributes":{"state_class":"measurement","unit_of_measurement":"lx","device_class":"illuminance","friendly_name":"Sensor movement entrance Illuminance"},"last_changed":"2024-03-24T12:44:48.226183+00:00","last_updated":"2024-03-24T12:44:48.226183+00:00","context":{"id":"01HSR7VYQ29TX1MZER06SZEMFQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.tze200_3towulqd_ts0601_illuminance","state":"23","attributes":{"state_class":"measurement","unit_of_measurement":"lx","device_class":"illuminance","friendly_name":"Sensor movement entrance Illuminance"},"last_changed":"2024-03-24T23:28:27.543228+00:00","last_updated":"2024-03-24T23:28:27.543228+00:00","context":{"id":"01HSSCPGWQH39MV006W5KGRSW1","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"switch.ikea_of_sweden_tradfri_control_outlet_switch","state":"off","attributes":{"friendly_name":"plug office Switch"},"last_changed":"2024-03-24T12:24:09.429270+00:00","last_updated":"2024-03-24T12:24:09.429270+00:00","context":{"id":"01HSR6P4YNZCB31HG1M853T9KF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.ikea_of_sweden_tradfri_control_outlet_switch","state":"off","attributes":{"friendly_name":"plug office Switch"},"last_changed":"2024-03-24T14:31:26.050906+00:00","last_updated":"2024-03-24T14:31:26.050906+00:00","context":{"id":"01HSRDZ6K2ZCB31HG1M853T9KF","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.ikea_of_sweden_tradfri_remote_control_firmware","state":"unavailable","attributes":{"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"IKEA of Sweden TRADFRI remote control Firmware","supported_features":7},"last_changed":"2024-03-24T12:24:09.431541+00:00","last_updated":"2024-03-24T12:24:09.431541+00:00","context":{"id":"01HSR6P4YQ06MEQ8VV7NGCH9RA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.ikea_of_sweden_tradfri_remote_control_firmware","state":"unavailable","attributes":{"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"IKEA of Sweden TRADFRI remote control Firmware","supported_features":7},"last_changed":"2024-03-24T14:31:26.054553+00:00","last_updated":"2024-03-24T14:31:26.054553+00:00","context":{"id":"01HSRDZ6K606MEQ8VV7NGCH9RA","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.ikea_of_sweden_tradfri_control_outlet_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x20024623","in_progress":false,"latest_version":"0x20024623","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"plug office Firmware","supported_features":7},"last_changed":"2024-03-24T12:24:09.432991+00:00","last_updated":"2024-03-24T12:24:09.432991+00:00","context":{"id":"01HSR6P4YR6F2KQMTGJKE6HXD1","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.ikea_of_sweden_tradfri_control_outlet_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x20024623","in_progress":false,"latest_version":"0x20024623","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"plug office Firmware","supported_features":7},"last_changed":"2024-03-24T14:31:26.057862+00:00","last_updated":"2024-03-24T14:31:26.057862+00:00","context":{"id":"01HSRDZ6K96F2KQMTGJKE6HXD1","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x10021655","in_progress":false,"latest_version":"0x10021655","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"lamp Firmware","supported_features":7},"last_changed":"2024-03-24T12:24:09.434511+00:00","last_updated":"2024-03-24T12:24:09.434511+00:00","context":{"id":"01HSR6P4YT56JAZT10KP514DC0","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x10021655","in_progress":false,"latest_version":"0x10021655","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"lamp Firmware","supported_features":7},"last_changed":"2024-03-24T14:31:26.060530+00:00","last_updated":"2024-03-24T14:31:26.060530+00:00","context":{"id":"01HSRDZ6KC56JAZT10KP514DC0","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
-      "state": {"entity_id":"update.ewelink_ck_bl702_al_01_7009_z102lg03_1_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x00001203","in_progress":false,"latest_version":"0x00001203","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Lamp entrance Firmware","supported_features":7},"last_changed":"2024-03-24T12:24:09.436014+00:00","last_updated":"2024-03-24T12:24:09.436014+00:00","context":{"id":"01HSR6P4YWSRTFEW7QXSYZP1X4","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.ewelink_ck_bl702_al_01_7009_z102lg03_1_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x00001203","in_progress":false,"latest_version":"0x00001203","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Lamp entrance Firmware","supported_features":7},"last_changed":"2024-03-24T14:31:26.063481+00:00","last_updated":"2024-03-24T14:31:26.063481+00:00","context":{"id":"01HSRDZ6KFSRTFEW7QXSYZP1X4","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
-    },
-    {
-      "state": {"entity_id":"automation.automate_backup","state":"on","attributes":{"id":"1711282945961","last_triggered":"2024-03-24T12:26:00.204214+00:00","mode":"single","current":0,"friendly_name":"automate_backup"},"last_changed":"2024-03-24T12:25:29.340475+00:00","last_updated":"2024-03-24T12:26:05.875571+00:00","context":{"id":"01HSR6SPNKX1XAHCD6SJCSF1NB","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2024-03-24T13:24:16.799806+00:00"
+      "last_seen": "2024-03-25T00:01:34.317838+00:00"
     },
     {
       "state": {"entity_id":"automation.turn_off_stairs_lamp","state":"off","attributes":{"id":"1710341937768","last_triggered":"2024-03-13T20:14:56.104660+00:00","mode":"single","current":0,"friendly_name":"turn off stairs lamp"},"last_changed":"2024-03-22T21:53:25.313313+00:00","last_updated":"2024-03-22T21:53:25.313313+00:00","context":{"id":"01HSM2F2A15XMF3YSR0BYSNFA0","parent_id":null,"user_id":null}},
